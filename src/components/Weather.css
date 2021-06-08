@@ -1,0 +1,92 @@
+.card-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  height: 500px;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.7) url("../assets/mountain.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.other-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  padding: 1em;
+  border-radius: 7px;
+}
+
+.heading {
+  font: 2em sans-serif;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.2em;
+}
+
+.temparature {
+  align-items: center;
+}
+
+.section-main {
+  border-radius: 50%;
+  background-color: #6c706d;
+  padding: 2em;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.search-main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-secondary {
+  height: 200px;
+  width: 90%;
+  padding: 2em;
+  text-align: center;
+}
+
+.weather-country {
+  margin: 3px auto;
+  padding: 1em;
+  border-radius: 4px;
+  font-size: 1.4em;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  border-style: none;
+  margin: 4px;
+  padding: 0.3em;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+input {
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+  padding: 0.6em;
+}
